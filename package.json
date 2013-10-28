@@ -1,6 +1,6 @@
 {
   "name": "rautc",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Autocomplete strategy with Redis",
   "main": "./lib/rautc",
   "repository": {
@@ -8,7 +8,9 @@
     "url": "https://github.com/beneti/rautc"
   },
   "keywords": [
-    "autocomplete"
+    "autocomplete",
+    "auto-complete",
+    "trie"
   ],
   "author": "Fred Beneti <beneti@beneti.com.br>",
   "license": "BSD",
