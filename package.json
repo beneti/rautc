@@ -13,7 +13,6 @@
   "author": "Fred Beneti <beneti@beneti.com.br>",
   "license": "BSD",
   "dependencies": {
-    "async": "*",
-    "redis": "*"
+    "async": "*"
   }
 }
