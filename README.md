@@ -1,6 +1,6 @@
 # rautc
 
-Autocomplete strategy using Redis
+Autocomplete strategy with Redis and [Trie](http://en.wikipedia.org/wiki/Trie)
 
 ## Usage
 
