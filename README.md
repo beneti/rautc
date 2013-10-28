@@ -15,7 +15,7 @@ rautc.addIndex("usernames", 'suzan', 'SuZaN:3:female', callback);
 rautc.addIndex("usernames", 'fred', 'Fred:4:male', callback);
 
 // searchBy(key, searchBy, limit, callback)
-rautc.searchBy("fre", function(err, results) {
+rautc.searchBy("usernames", "fre", 2, function(err, results) {
   // ['Freddy:1:male', 'Fred:4:male']
   ...
 });
