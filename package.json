@@ -1,0 +1,15 @@
+{
+  "name": "rautc",
+  "version": "0.0.1",
+  "description": "Autocomplete strategy with Redis",
+  "main": "./lib/rautc",
+  "keywords": [
+    "autocomplete"
+  ],
+  "author": "Fred Beneti <beneti@beneti.com.br>",
+  "license": "BSD",
+  "dependencies": {
+    "async": "*",
+    "redis": "*"
+  }
+}
