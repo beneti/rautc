@@ -13,9 +13,11 @@ rautc.addIndex("usernames", 'freddy', 'Freddy:1:male', 0, callback);
 rautc.addIndex("usernames", 'john', 'John:2:male', 0, callback);
 rautc.addIndex("usernames", 'suzan', 'SuZaN:3:female', 0, callback);
 rautc.addIndex("usernames", 'fred', 'Fred:4:male', 0, callback);
-rautc.addIndex("usernames", 'fredie', 'Fredie:5:male', callback); //without score. default -> score:0
+//without score. default -> score:0
+rautc.addIndex("usernames", 'fredie', 'Fredie:5:male', callback); 
 
-// searchBy(key, searchBy, callback) //without options. defaults -> limit: 0, sort: 'asc'
+//without options. defaults -> limit: 0, sort: 'asc'
+// searchBy(key, searchBy, callback) 
 rautc.searchBy("usernames", "fre", function(err, results) {
   // ['Fred:4:male', 'Freddy:1:male', 'Fredie:5:male']
   ...
