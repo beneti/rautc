@@ -50,3 +50,5 @@ rautc.searchBy("usernames", "fre", options, function(err, results) {
   ...
 });
 ```
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/beneti/rautc/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
